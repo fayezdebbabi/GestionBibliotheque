@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="essai1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/essai1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/essai1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ADHERENT.cpp" />
+		<Unit filename="ADHERENT.h" />
+		<Unit filename="DATE.cpp" />
+		<Unit filename="DATE.h" />
+		<Unit filename="DOCNUM.cpp" />
+		<Unit filename="DOCNUM.h" />
+		<Unit filename="DOCUMENT.cpp" />
+		<Unit filename="DOCUMENT.h" />
+		<Unit filename="EMPRUNT.cpp" />
+		<Unit filename="EMPRUNT.h" />
+		<Unit filename="ENSEIGNANT.cpp" />
+		<Unit filename="ENSEIGNANT.h" />
+		<Unit filename="ETUDIANT.cpp" />
+		<Unit filename="ETUDIANT.h" />
+		<Unit filename="LIVRE.cpp" />
+		<Unit filename="LIVRE.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu1.cpp" />
+		<Unit filename="menu1.h" />
+		<Unit filename="menu2.cpp" />
+		<Unit filename="menu2.h" />
+		<Unit filename="menu3.cpp" />
+		<Unit filename="menu3.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
